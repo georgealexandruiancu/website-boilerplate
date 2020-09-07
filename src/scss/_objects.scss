@@ -1,0 +1,117 @@
+// ==================== OBJECTS ====================
+
+.o-button {
+	border: $onex solid $color-global-negative;
+	background: transparent;
+	padding: $inner-gutter--half;
+	font-size: map-get($font-sizes, "m");
+	color: $color-global-negative;
+	border-radius: $inner-gutter--quarter;
+	transition: all $transition-default;
+	outline: $zero;
+	cursor: pointer;
+
+	&--primary {
+		background: $color-global-primary;
+		color: $color-global-light;
+		border-color: $color-global-primary;
+
+		&:hover {
+			background: $color-global-primary--alt;
+		}
+	}
+
+	&--secondary {
+		background: $color-global-hard;
+		color: $color-global-light;
+		border-color: $color-global-hard;
+
+		&:hover {
+			background: $color-global-hard--alt;
+		}
+	}
+
+	&--danger {
+		background: $color-global-danger;
+		color: $color-global-light;
+		border-color: $color-global-danger;
+
+		&:hover {
+			background: $color-global-danger--dark;
+		}
+	}
+
+	&--good {
+		background: $color-global-ternary;
+		color: $color-global-light;
+		border-color: $color-global-ternary;
+
+		&:hover {
+			background: $color-global-ternary--alt;
+		}
+	}
+
+	&--alt {
+		background: $color-global-ternary--alt;
+		color: $color-global-light;
+		border-color: $color-global-ternary--alt;
+
+		&:hover {
+			background: $color-global-ternary;
+		}
+	}
+
+	&--fixed-width {
+		max-width: 100px;
+		min-width: 100px;;
+	}
+
+	&--full {
+		width: $full;
+	}
+}
+
+.o-input {
+	background: transparent;
+	border: $onex solid $color-global-negative;
+	padding: $inner-gutter--half;
+	outline: $zero;
+	border-radius: $inner-gutter--quarter;
+	transition: all $transition-default;
+
+	&--primary {
+		background: $color-global-primary;
+		border-color: $color-global-primary;
+		color: $color-global-light;
+
+		&::placeholder {
+			color: $color-global-light;
+		}
+
+		&:hover,
+		&:active,
+		&:focus {
+			background: transparent;
+			color: $color-global-negative;
+		}
+	}
+
+	&--secondary {
+		background: $color-global-hard;
+		color: $color-global-light;
+		border-color: $color-global-hard;
+
+		&::placeholder {
+			color: $color-global-light;
+		}
+
+		&:hover,
+		&:active,
+		&:focus {
+			background: transparent;
+			color: $color-global-negative;
+		}
+	}
+}
+
+// ==================== ./OBJECTS ====================

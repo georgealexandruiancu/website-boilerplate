@@ -31,6 +31,8 @@ $quarter: 					25%;
 
 $zero: 						0;
 $one: 						1;
+$onex: 						1px;
+$zerox:						0px;
 
 $z-indexs : (
 	'max-above':			99999,
@@ -69,5 +71,8 @@ $inner-gutter--half:					$inner-gutter / 2;
 $inner-gutter--double:					$inner-gutter * 2;
 $inner-gutter--tripple:					$inner-gutter * 3;
 $inner-gutter--quarter:					$inner-gutter / 4;
+
+$transition-default:					.3s;
+$transition-lag:						.7s;
 
 // ==================== ./GLOBAL VARIABLES ====================
