@@ -1,0 +1,73 @@
+// -------------------------------------------------------
+// HERE WE HAVE THE GLOBAL VARIABLES
+// THIS SHOULD BE OVERRIDE IN _overrides
+// -------------------------------------------------------
+
+// ==================== GLOBAL VARIABLES ====================
+$grid__bp-sm: 				576;
+$grid__bp-md: 				768;
+$grid__bp-lg: 				992;
+$grid__bp-xl: 				1200;
+$grid__cols: 				12;
+
+$mobile-portrait: 			414px;
+$mobile-landscape: 			812px;
+$tablet-portrait: 			834px;
+$tablet-landscape: 			1112px;
+$laptop-landscape: 			1440px;
+$desktop-landscape: 		1920px;
+
+$map-grid-props: (
+		'': 0,
+		'-sm': 				$grid__bp-sm,
+		'-md': 				$grid__bp-md,
+		'-lg': 				$grid__bp-lg,
+		'-xl': 				$grid__bp-xl
+);
+
+$full: 						100%;
+$half: 						50%;
+$quarter: 					25%;
+
+$zero: 						0;
+$one: 						1;
+
+$z-indexs : (
+	'max-above':			99999,
+	'above-all':			9999,
+	'above':				99,
+	'top':					1,
+	'ground':				0
+);
+
+$font-weights : (
+	"thin":					300,
+	"medium":				600,
+	"bold":					700,
+	"fat":					900
+);
+
+$font-sizes : (
+	"xxs":					.75em,
+	"xs":					.80em,
+	"s":					.90em,
+	"m":					1em,
+	"l":					1.3em,
+	"xl":					1.8em,
+	"xxl":					2.2em,
+	"biggest":				3.5em
+);
+
+$letter-spacings : (
+	"normal":				.9px,
+	"medium":				1.1px,
+	"large":				1.5px
+);
+
+$inner-gutter:							20px;
+$inner-gutter--half:					$inner-gutter / 2;
+$inner-gutter--double:					$inner-gutter * 2;
+$inner-gutter--tripple:					$inner-gutter * 3;
+$inner-gutter--quarter:					$inner-gutter / 4;
+
+// ==================== ./GLOBAL VARIABLES ====================
