@@ -1,0 +1,24 @@
+{
+  "name": "website-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for static websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgealexandruiancu/website-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "static",
+    "website"
+  ],
+  "author": "Iancu George-Alexandru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgealexandruiancu/website-boilerplate/issues"
+  },
+  "homepage": "https://github.com/georgealexandruiancu/website-boilerplate#readme"
+}
